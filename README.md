@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# 📝 memo-app（シンプルなReact製メモアプリ）
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔍 概要
+このアプリは、Reactを使って作成したシンプルなメモ管理アプリです。  
+Firebaseなどの外部サービスを使用せず、ローカルで完結する構成になっています。  
+ノートの追加・削除・編集といった基本的な機能をシンプルなUIで体験できます。
 
-## Available Scripts
+## 🛠 使用技術
+- React（Hooks）
+- ローカル状態管理（useState）
+- CSS（シンプルスタイル）
+- Git / GitHubでバージョン管理
 
-In the project directory, you can run:
+## ✨ 機能一覧
+- ノートの新規追加
+- ノートの削除
+- ノートの編集・保存
+- 選択中のノートがハイライトされる
+- UIは直感的でシンプルに設計
 
-### `npm start`
+## 📷 スクリーンショット
+![メモアプリ画面](./public/screenshot.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📂 プロジェクト構成（抜粋）
+src/ ├── App.jsx ├── Appcontext.jsx ├── appMemo.jsx ├── Button.jsx ├── Parent.jsx ├── components/ │ └── AdminFlagProvider.jsx
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💻 開発環境での動作方法
+```bash
+git clone https://github.com/Jozet42/memo-app.git
+cd memo-app
+npm install
+npm start
 
-### `npm test`
+🧪 今後の拡張案
+ノートの自動保存機能
+カテゴリ・タグ管理
+ローカルストレージへの永続化
+ダークモード対応
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🙌 制作メモ
+このアプリは職業訓練校での学習成果のひとつとして作成しました。
+シンプルな中にも「状態管理の基本」や「コンポーネントの設計」を意識しています。
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ✍ 使い方（手順）
+1. VSCodeで `memo-app/README.md` を開く（無ければ新規作成）
+2. 上のテンプレをコピペ
+3. 必要に応じて文章や画像パスを調整
+4. 保存して `git add README.md`
+5. `git commit -m "README追加"` → `git push`
+---
+## 📝 更新履歴
+- 2025/04/15：README.mdの整備とスクリーンショットを追加
